@@ -1,0 +1,300 @@
+@charset "utf-8";
+* {
+	margin:0px;
+	padding:0px;	
+}
+body {
+	background-image:url(images/limebg1.jpg);
+	font-family:Arial, Helvetica, sans-serif;
+}
+p {
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.information {
+	width:900px;
+	
+}
+
+#table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 99%;
+}
+
+#table td, #table th {
+  border: 2px solid #ddd;
+  padding: 8px;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;
+text-align: center;}
+#table tr:nth-child(odd){
+text-align: center;}
+
+#table tr:hover {background-color: #F1C40F ;}
+
+#table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #228B22;
+  color: white;
+}
+
+.search{
+	
+	display:flex;
+	align-items:center;
+	display:inline-block;
+	
+	
+}
+
+.search img{
+	height:20px;
+	width:20px;
+	
+}
+
+.admin{
+	
+	display:flex;
+	align-items:center;
+	display:inline-block;
+	
+	
+}
+.admin img{
+	height:20px;
+	width:20px;
+	
+}
+.info{
+	
+	display:flex;
+	align-items:center;
+	display:inline-block;
+	
+	
+	
+}
+
+.info img{
+	height:20px;
+	width:20px;
+	
+}
+.home{
+	
+	display:flex;
+	align-items:center;
+	display:inline-block;
+	
+}
+
+.home img{
+	height:20px;
+	width:30px;
+	
+}
+
+.icon{
+	display:flex;
+	align-items:center;
+	display:inline-block;
+
+	
+}
+
+.icon img{
+	height:20px;
+	width:20px;
+	
+}
+
+.profiledisplay {
+	margin:auto;
+	text-align:center;
+	align-items:center;
+	justify-content:center;
+}
+
+.profile {
+	display:inline-block;
+	width:150px;
+}
+
+.editprofile{
+	width: 320px;
+	height: 800px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	font-size: 15px;
+	padding-top: 20px;
+	padding-left: 20px;
+	text-align: ;
+}
+
+.formupdate{
+	width: 320px;
+	height: 500px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	font-size: 15px;
+	padding-top: 20px;
+	padding-left: 20px;
+	text-align: ;
+}
+
+.login-box{
+	width: 320px;
+	height: 360px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	font-size: 25px;
+	padding-top: 20px;
+	padding-left: 20px;
+	text-align: ;
+}
+
+.table {
+	background-color: #fff;
+	border-collapse: collapse;
+	width:100%;
+	
+}
+
+.background {
+	width:979px;
+	float:left;
+	padding-left:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color:#FFF;
+	
+}
+
+.container {
+	width:999px;
+	background-color:#FFF;
+	margin-left:auto;
+	margin-right:auto;
+}
+.header {
+	width:999px;
+	height:80px;
+	border-bottom-width:1px;
+	border-bottom-color:#000;
+	border-bottom-style:solid;
+}
+.logo {
+	float:left;
+}
+.navigation {
+	float:right;
+	margin-top:55px;
+	margin-right:20px;
+}
+.banner {
+	clear:both;
+	padding-top:10px;
+}
+.maincontent {
+	width:959px;
+	float:left;
+	padding-left:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color:#FFF;
+}
+.seccontent {
+	width:293px;
+	float:right;
+	padding:20px;
+}
+.footer {
+	clear:both;
+}
+.textheading {
+	float:left;
+	color:#ff0000;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.detail {
+	float:right;
+	font-family:Arial, Helvetica, sans-serif;
+	width:200px;
+}
+.newline {
+	clear:both;
+	height:20px;
+}
+.navigation a:link {
+	text-decoration:none;
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 0px 10px 0px 10px;
+}
+.navigation a:visited {
+	text-decoration:none;
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 0px 10px 0px 10px;
+}
+.navigation a:hover {
+	text-decoration:underline;
+	color:#000;
+	font-fsamily:Arial, Helvetica, sans-serif;
+	margin: 0px 10px 0px 10px;
+}
+.item {
+	width: 120px;
+	height:250px;
+	margin-left:40px;
+	margin-right:40px;
+	margin-bottom:30px;
+	float:left;	
+
+}
+.rightimage {
+	float:right;
+	width:300px;
+}
+.lefttext {
+	float:left;	
+	width:300px;
+}
+.categories {
+	margin-bottom:15px;	
+}
+h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight:bold;	
+}
+.error {
+	color:#ff0000;
+}
